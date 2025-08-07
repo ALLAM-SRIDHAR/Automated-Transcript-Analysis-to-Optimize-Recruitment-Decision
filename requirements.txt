@@ -1,0 +1,9 @@
+streamlit
+pandas
+scikit-learn
+xgboost
+joblib
+transformers
+sentence-transformers
+torch
+openpyxl
