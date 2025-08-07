@@ -88,3 +88,16 @@ cd Automated-Transcript-Analysis-to-Optimize-Recruitment-Decision
 
 # Install dependencies
 pip install -r requirements.txt
+
+---
+
+## 🚀 Running the App
+streamlit run app.py
+Then open http://localhost:8501 in your browser.
+
+---
+
+## 🧠 Model Training (Optional)
+If you want to retrain the model:
+python recruitment_pipeline.py
+This loads the dataset, extracts features, trains the XGBoost model, and saves it as final_xgb_model.pkl.
